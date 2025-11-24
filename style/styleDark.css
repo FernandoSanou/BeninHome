@@ -1,0 +1,181 @@
+/* page d'acceuil */
+
+  .homePage {
+    background-color: #51576a;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+  height: 30px;
+    background: linear-gradient(to left, #392491, #6460df);
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    position: fixed;
+  }
+
+.title {
+color:white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+ .Description {
+    text-align: center;
+    color: #dcd8d8;
+  }
+
+ .Description , .Description1 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 20px;
+    background-color: #6f7194;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+   .Description3, .Description2 {
+    background-color: #6f7194;
+    margin-top: 35px;
+    color:white;
+   }
+span{
+color: white;
+}
+
+.getAway1 {
+  color: #211c38;
+  text-decoration: none;
+}
+.demande {
+border: 1px solid #a6a6a6;
+  background-color: transparent;
+}
+
+.formImageHome{
+border-bottom: solid 1px #a6a6a6;
+}
+
+/* .demande h3 {
+  display: inline-block;
+  margin: 5px 5px;
+  font-weight: 400;
+  font-size: 1.21em;
+} */
+  .demande .textColor {
+  display: inline-block;
+  margin: 5px 5px;
+  font-weight: 400;
+  font-size: 1.21em;
+
+}
+.button18 {
+  color: #dcd8d8;
+  line-height: 1.6;
+  font-size: 1.05em;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'calibri';
+  color: white;
+  padding: 0px 20px;
+  border-top: solid 1px white;
+  }
+
+.textColored3 {
+  text-align: left;
+  color: #8e75f3;;
+  height: 10px;
+  font-size: 2.21em;
+  margin-left: 10px;
+}
+  .Description p {
+    line-height: 1.6;
+    color: #dcd8d8;
+    font-size: 1.1em;
+  }
+
+.button18 {
+  color: #dcd8d8;
+  line-height: 1.6;
+  font-size: 1.05em;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'calibri';
+  padding: 0px;
+    color: white;
+}
+
+.contact{
+color: aqua;
+}
+
+
+/* chatlist */
+
+  .textColored1 {
+    text-align: left;
+    color: #8e75f3;
+    font-size: 1.9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.button20 {
+  background-color: transparent;
+  color: white;
+}
+
+.spanText{
+color:white;
+}
+
+.button15 {
+  color: #fff;
+  font-family: calibri;
+  width: 270px;
+  display: inline-block;
+  background: none;
+  border: solid #a2a2a2 1px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.button9 {
+ 
+  background: #908aa8;
+
+}
+
+h2::after {
+  background-color: #8e75f3;
+}
+
+ .field {
+    background-color: rgba(37, 37, 37, 0.19);
+    color: white;
+  }
+
+  .field:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #555;
+}
+
+
+.btn{
+
+background-color: #53458d;
+}
+
+.textColorPrix {
+  color: #1c152d;
+}
+
+.textColored {
+  color: #60a1df;
+  display: inline-block;
+}

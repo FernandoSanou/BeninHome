@@ -1,0 +1,162 @@
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+.tete {
+    width: 550px;
+}
+
+.head {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    font-family: Calibri;
+}
+
+.button1,
+.button2 {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #775ce2;
+    color: white;
+}
+
+.button1:hover {
+    background: #4e4181;
+
+}
+
+.button2:hover {
+    background: #4e4181;
+
+}
+
+.button2 {
+    margin-left: 5px;
+}
+
+/* login page */
+.center1 {
+    margin-top: 50px;
+}
+
+.form2 {
+    color: white;
+    font-family: Calibri;
+    margin-top: 20px;
+    border: none;
+}
+
+.form2 .input {
+    margin-top: 5px;
+    font-family: Calibri;
+    width: 250px;
+    margin-bottom: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 1.9ch;
+    border: none;
+}
+
+    .button3 {
+  margin-top: 5px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 1.1em;
+  font-weight: 200;
+  border-radius: 4px;
+  background: #f2922d;
+  color: white;
+  border: none;
+  width: 200px;
+
+}
+
+.button3:hover {
+    background: #4e4181;
+    color: #60bbdf;
+
+}
+
+/*  signUp page */
+
+.form3 {
+    color: white;
+    font-family: Calibri;
+    margin-top: 20px;
+    border: none;
+}
+
+
+
+.button4 {
+    margin-top: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 1.1em;
+    font-weight: 200;
+    border-radius: 4px;
+  background: #e36737;   
+   color: white;
+    border: none;
+    width: 220px;
+}
+
+.button4:hover {
+    background: #4e4181;
+    color: #60bbdf;
+}
+
+/* redirection liens */
+.getAway {
+    text-decoration: none;
+    color: white;
+}
+
+/* error */
+.erreur {
+    color: rgb(230, 52, 52);
+}
+
+
+
+
+/* page d'acceuil */
+
+
+.pageAccueil {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.head {
+    height: 150px;
+    background: linear-gradient(to left, #492fb5, #60bbdf);
+}
+
+.link1,
+.link {
+    color: white;
+    text-decoration: none;
+    font-size:1.9em;
+}
+
+.left,
+.right {
+    display: inline-block;
+}

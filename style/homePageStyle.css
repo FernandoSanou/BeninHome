@@ -1,0 +1,12 @@
+.hide{
+    visibility: hidden;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    .navbars{
+        padding: 0 4px;
+    }
+
+}

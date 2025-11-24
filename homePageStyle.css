@@ -1,0 +1,2053 @@
+body {
+    background-color: #dbdada;
+}
+
+a{
+text-decoration: none;
+}
+
+.homePage {
+    background-color: #dbdada;
+}
+
+.Description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* navbar */
+
+.navbar {
+    height: 30px;
+    background:#6937c3;
+    padding: 10px 10px;
+    width: 98.50%;
+    margin-bottom: 20px;
+    
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* .right {
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+} */
+
+.right a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0px 8px;
+}
+
+
+p.notificationChat {
+    background: red;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 0.7em;
+    display: inline-block;
+    color: white;
+    margin: 0;
+}
+
+.out{
+color:#555;
+text-decoration: none;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: calibri;
+}
+
+.typeOfProfile {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.typeOfProfile h2 {
+    color: #492fb5;
+}
+
+
+.button5,
+.button6 {
+    margin-top: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left: 5px;
+    background-color: #ecebeee8;
+    color: #492fb5;
+    border: none;
+
+}
+
+.button6.text {
+    background-color: #492fb5;
+    color: white;
+}
+
+
+.button5:hover {
+    background-color: #492fb5;
+    color: white;
+}
+
+.button6:hover {
+    background-color: #492fb5;
+    color: white;
+}
+
+/* page home */
+.homePage {
+    background-color: #dbdada;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.span1 {
+    font-weight: bold;
+}
+
+.Description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.acceuilDEscription {
+    color: #492fb5;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.Description p {
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* ... Votre style existant ... */
+.carte-annonce {
+    display: flex;
+    background-color: #492fb5;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.carte-annonce:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.prix {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.proprio {
+    font-weight: bold;
+    color: white;
+}
+
+.info {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* button de demande d'offre */
+
+.button3 {
+    margin-top: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #775ce2;
+    color: white;
+    border: none;
+    width: 200px;
+}
+
+.button3:hover {
+    background: #4e4181;
+
+}
+
+.button7 {
+    margin-top: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #775ce2;
+    color: white;
+    border: none;
+}
+
+.button7:hover {
+    background: #8070c0;
+
+}
+
+/* DEMANDE.PHP style*/
+
+
+
+
+/* seeImage.php */
+
+
+.image{
+margin: auto;
+width: 250px;
+max-height: 300px;
+
+}
+
+
+
+
+
+
+
+
+.images{
+width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.form8 {
+
+    border-top: 1px solid #5e7dbb;
+        border-bottom: 2px solid #5e7dbb;
+    padding: 10px;
+    height: 55px;
+    color:#6e87e8;
+
+}
+
+.form3 .input {
+    margin-top: 5px;
+    font-family: Calibri;
+    width: 300px;
+    margin-bottom: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 1.9ch;
+    border: none;
+}
+
+.button4 {
+    margin-top: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 1.1em;
+    font-weight: 200;
+    border-radius: 4px;
+    background: #775ce2;
+    color: white;
+    border: none;
+    width: 220px;
+}
+
+.button4:hover {
+    background: #4e4181;
+    color: #60bbdf;
+}
+
+.button9 {
+    margin-top: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #775ce2;
+    color: white;
+    border: none;
+}
+
+.button9:hover {
+    background: #60548d;
+    cursor: wait;
+
+}
+
+/* redirection liens */
+.getAway {
+    text-decoration: none;
+    color: white;
+    color: #60548d;
+}
+
+ 
+
+/* error */
+.erreur {
+    color: rgb(230, 52, 52);
+}
+
+/* home Page */
+
+
+.getAway {
+    text-decoration: none;
+    color: white;
+}
+
+/* menu deroulant de la navbar */
+.menu-icon-show,
+.menu-icon-hide {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+/* profile.php */
+
+.desc {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle {
+
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 100%;
+    background-color: #555;
+}
+
+    .button20 {
+            width: 310px;
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.05em;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+            font-family: calibri;
+            background-color: transparent;
+            height: 54px;
+
+        }
+
+
+
+.profile {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.deconnection {
+    color: rgb(109, 14, 218);
+}
+
+.out {
+    color: rgb(132, 35, 243);
+    text-decoration: none;
+}
+
+.demande {
+    border: 1px solid #5e7ddb;
+    border-radius: 4px;
+    text-align: left;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 250px;
+    display:inline-block;
+    background-color: #e0dfdf;
+
+}
+.btn2 {
+    background: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 7px;
+    font-size: 0.9em;
+    font-weight: bold;
+    width: auto;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    position: relative;
+    left: 92%;
+    bottom: 35px;   
+    display: inline-block;
+}
+.formImageHome{
+border-bottom: solid 1px #5e7ddb;
+}
+.textColored3 {
+    text-align: left;
+    color: #5e7ddb;
+    margin-left: 5px;
+    font-size: 1.4em;
+
+}
+
+.button12 {
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-size: 1.0em;
+    border-radius: 4px;
+    background: #5e7ddb;
+    color: white;
+    border: none;
+    margin-left: 50px;
+    transition: .3s;
+    position: relative;
+    right: -58%;
+}
+
+.button12:hover {
+    background-color: #4e4181;
+}
+
+.demande h3 {
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+/* demande1.php */
+.getAway1 {
+    color: #775ce2;
+    text-decoration: none;
+}
+
+/* demande2.php */
+
+.form4 {
+    color: white;
+    font-family: Calibri;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dbdada;
+    width: 400px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.form4 .input {
+    margin-top: 5px;
+    font-family: Calibri;
+    width: 250px;
+    margin-bottom: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 1.9ch;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* profile.php  */
+
+.textColored {
+    color: #5e7ddb;
+    display: inline-block;
+}
+
+.textColored1 {
+    text-align: left;
+    color: #5e7ddb;
+    font-size: 1.9em;
+
+}
+
+.small {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.notificationText {
+    width: 58%;
+
+}
+
+/* notification.php */
+
+inputMessage {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 83%;
+    border-radius: 9px;
+    font-family: unset;
+    color: #555;
+}
+
+.Description1 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    height: 500px;
+
+
+}
+
+.notification {
+  text-align: left;
+  height: 5px;
+  margin-bottom: 43px;
+  margin-left: -14px;
+}
+
+.notifications {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.notification h4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.notification p {
+    margin: 0;
+
+}
+
+.form5 {
+    border-top: 1px solid #e0dfdf;
+    border-bottom: 1px solid #e0dfdf;
+    padding: 10px;
+    height: 55px;
+}
+     .button18 {
+            background: #e0dfdf;
+        }
+
+.button8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 7px;
+    font-size: 0.9em;
+    font-weight: bold;
+    width: auto;
+    border-radius: 4px;
+    background: #5e7ddb;
+    color: white;
+    border: none;
+    display: inline-block;
+   
+}
+
+.button8:hover {
+    background: #4e4181;
+
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+}
+
+.button14 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 7px;
+    font-size: 0.9em;
+    width: auto;
+    border-radius: 4px;
+    background: #5e7ddb;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.button14:hover {
+    background-color: #492fb5;
+}
+
+
+/* demande formulaire */
+
+.textAligner {
+    display: inline-block;
+    margin-left: 10px;
+    width: 400px;
+    text-align: left;
+}
+
+.textAligner h1 {
+  font-size: 1.9em;
+  margin-bottom: 10px;
+  width: 263px;
+}
+
+.textAligner p {
+    font-size: 1.5em;
+
+
+}
+
+
+
+.formulaire1 input {
+
+    padding: 15px 10px;
+
+}
+
+.text-muted {
+    margin-top: 205px;
+
+}
+
+
+
+.Description2 {
+
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    height: auto;
+
+}
+
+.dropbtn{
+    display:none;
+    }
+
+h2 {
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+/* h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #5e7ddb;
+} */
+
+.field {
+    width: 94%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    padding: 15px 10px;
+    border: 1px solid #c7c4c4;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    min-height: 150px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #5e7ddb;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #4e4181;
+}
+
+.field:focus {
+    border: 2px solid rgba(30, 85, 250, 0.47);
+    background-color: #fff;
+}
+@media screen and (min-width: 1200px)and (max-width: 600px) {
+   
+}
+@media screen and (max-width: 880px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+
+    .left1 {
+        height: 200px;
+    }
+
+}
+
+/* notificationPlus.php */
+
+
+.Description3 {
+
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    height: 500px;
+    overflow-y: auto;
+    padding-left: 35px;
+
+}
+
+
+
+
+
+
+
+
+.small2 {
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+
+.hide {
+    display: none;
+}
+
+#camera {
+    width: 10px;
+    fill: rgb(233, 233, 233);
+
+}
+
+.svg1 {
+    margin-left: 5px;
+}
+
+.svg1,
+svg {
+    padding: 4px;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+
+.svg1:hover,
+.svg:hover {
+    background-color: #cfcbcb;
+
+}
+.svg:hover > #camera {
+    width: 10px;
+    fill: #858585;
+
+}
+ 
+.svg1:hover > #camera{   width: 10px;
+    fill: #858585;
+
+}
+
+
+.addPictures {
+
+    position: relative;
+    display: none;
+    top: -70px;
+}
+
+.imagesPhoto{
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.addPictures1 {
+
+    position: relative;
+    display: none;
+    top: -70px;
+    left: 25px;
+}
+
+.button10 {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.headPhotochat{
+display: inline-block;
+}
+
+.headChatInfo {
+  display: inline-block;
+  height: 55px;
+}
+
+.status{
+  display: inline-block;
+  width: 8px;
+  background: #0f0;
+  height: 8px;
+  border-radius: 100%;
+  position: relative;
+  left: -17px;
+  top: 2px;  
+
+}
+.button11 {
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-size: 1.0em;
+    border-radius: 4px;
+    background: #775ce2;
+    color: white;
+    border: none;
+    display: inline-block;
+}
+
+.button11:hover {
+    background: #8070c0;
+
+}
+
+#chat {
+    fill: white;
+}
+
+.c {
+    display: inline;
+    padding: 0px;
+    margin-bottom: -7px;
+    margin-left: 8px;
+
+}
+
+.inputFile {
+    display: inline-block;
+
+}
+
+.hideForm {
+    display: none;
+}
+
+.seeImage {
+    background-color: black;
+}
+
+
+/* userProfile.php */
+
+.button15{
+color: #555;
+  font-family: calibri;
+  width: 250px;
+  display: inline-block;
+  background: none;
+  border: solid #a2a2a2 1px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.allrequete{
+text-align:left;
+}
+
+h3.textolor1 {
+    margin: 5px 0px;
+    color: #555;
+    font-weight: 500;
+}
+small.textcolor {
+    color: #5e7bdd;
+    margin-bottom: 11px;
+    display: block;
+}
+.H4textolor{
+color:#5e7dbb;
+
+}
+
+.labelLeft {
+    text-align: left;
+    margin-top: 11px;
+    margin-left: 9px;
+}
+input.profileSettingsInput {
+    width: 94%;
+    padding: 7px 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+label.profileSettingsLabel {
+    margin-left: 2px;
+}
+button.profileSettingsButton {
+    padding: 7px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #5e7bdd;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 9px;
+}
+h4.type {
+    color: #616161;
+}
+button.profileTypeButton {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #5e7bdd;
+    color: #fff;
+    font-size: 1.0em;
+}
+
+
+/* chat.php style */
+
+
+
+.Description4 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    height: 500px;
+
+
+}
+
+.chat {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #5e7ddb;
+    border-radius: 4px;
+}
+
+.textColored3 {
+    text-align: left;
+    color: #5e7ddb;
+    height: 10px;
+    font-size: 1.9em;
+    margin-left: 10px;
+
+}
+
+
+.chat {
+    height: auto;
+}
+
+.head {
+    padding: 5px;
+    height: 45px;
+    background: #454eca;
+    color: white;
+    text-align: left;
+}
+
+.head h4 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1.2em;
+
+}
+
+.photo {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #555;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.Description7 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    /* height: 485px; */
+    width: 80%;
+}
+
+
+.personne {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 35%;
+    text-align: left;
+    left: -20px;
+}
+
+.btnLink {
+    background: none;
+    font-size: 0.9em;
+}
+
+svg.linkSvg{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: #cfcfcf;
+    display: inline-block;
+    border-radius: 11px;
+}
+
+h4.link{
+    color: #474747;
+    /* font-size: 1.22em; */
+    margin: 0px;
+    float: right;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+.copyLink {
+    height: 35px;
+    padding: 7px 5px;
+    border-radius: 12px;
+    background: #e6e6e8;
+    margin-top: 22px;
+    width: 220px;
+}
+
+.messageOffreRight{
+    text-align: right;
+    padding: 10px 5px;
+    background-color: #4d71df;
+    color: white;
+    font-size: 0.9em;
+    max-inline-size: 150px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    margin: 5px;
+    margin-left: 76%;
+
+}
+.messageOffreLeft  > h3.textColorPrixChat {
+    color: #2c2d2d;;
+}
+.messageOffreLeft {
+    text-align: left;
+    padding: 10px 5px;
+    background-color: #616161;
+    color: white;
+    font-size: 0.9em;
+    max-width: 150px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    margin: 5px;
+}
+button.btnChat {
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: left;
+    font-size: 0.9em;
+    color: #3d3939;
+    box-shadow: none;
+    margin: 0;
+}
+
+.messageOffreLeft  > h3.textColorPrixChat {
+    color: #22b7f3;
+}
+
+/*  */
+.textColor1 {  
+      color: #9d9d9d;
+    display: inline-block;
+    margin: 10px 2px;
+}
+.textColor2{
+    display: inline-block;
+color:#5e7bdd;
+}
+.textColor3{
+    display: inline-block;
+color:#5e7bdd;
+}
+
+.textColor4{
+    display: inline-block;
+color:#5e7bdd;
+}
+
+.allNotif{
+    display:none;
+}
+
+
+.container {
+    min-height: 322px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-bottom: 1px solid #5e7ddb;
+    background-color: #fff;
+    max-height: 375px;
+}
+.container::-webkit-scrollbar{
+background-color: #aca8a896;
+border: none;
+}
+
+.Description4 {
+
+    height: 502px;
+}
+
+.inputMessage {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 75%;
+    border-radius: 9px;
+    font-family: unset;
+    color: #555;
+}
+
+div#myDropdown {
+    margin-top: 5px;
+}
+
+.footer {
+    padding: 0 15px;
+    height: 52px;
+    background-color: #5555;
+    text-align: left;
+}
+
+.button13 {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+.svg3 {
+    padding: 0;
+    height: 32px;
+    background-color: #5e7ddb;
+    width: 35px;
+    position: relative;
+  
+}
+
+#path1 {
+    fill: white;
+}
+
+
+
+/* message */
+
+.messageLeft {
+    text-align: left;
+    padding: 10px 5px;
+    background-color: #616161;
+    color: white;
+    font-size: 0.9em;
+    max-width: 150px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    margin: 5px;
+}
+
+.messageRight {
+    text-align: right;
+    padding: 10px 5px;
+    background-color: #4d71df;
+    color: white;
+    font-size: 0.9em;
+    max-inline-size: 150px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    margin: 5px;
+    margin-left: 85%;
+}
+
+
+    .imagesPhoto {
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            margin-left: 5px;
+            display: inline-block;
+        }
+
+        .imagesVue {
+            width: 10px;
+            height: 10px;
+            border: solid #5e7bdd 1px;
+            position: relative;
+            border-radius: 50%;
+            left: 97%;
+        }
+
+        .vue {
+            width: 10px;
+            height: 10px;
+            border: solid #5e7bdd 1px;
+            background-color: #555;
+            position: relative;
+            left: 48%;
+            border-radius: 50%;
+        }
+        .button13 {
+            padding: 0;
+            margin: 0;
+            background: none;
+            border: none;
+            float: right;
+            margin-top: 8px;
+        }
+        .Description {
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+            margin-top: 50px;
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1em;
+            width: 60%;
+        }
+
+
+        /* Styles pour les écrans de petite taille (jusqu'à 600px de largeur) */
+        @media only screen and (max-width: 600px) {
+            .imagesVue {
+                width: 10px;
+                height: 10px;
+                border: solid #5e7bdd 1px;
+                position: relative;
+                left: 95%;
+                border-radius: 50%;
+            }
+
+            .vue {
+                width: 10px;
+                height: 10px;
+                border: solid #5e7bdd 1px;
+                background-color: #555;
+                position: relative;
+                left: 95%;
+                border-radius: 50%;
+            }
+        }
+
+/* Styles pour les écrans de petite taille (jusqu'à 600px de largeur) */
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: #dbdada;
+    }
+
+    .homePage {
+        background-color: #dbdada;
+    }
+
+    .Description {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .Description {
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+        margin-top: 50px;
+        color: #555;
+        line-height: 1.6;
+        font-size: 1.1em;
+        width: auto;
+    }
+    /* navbar */
+
+    .navbar {
+        height: 30px;
+        /* background: linear-gradient(to left, #492fb5, #60bbdf); */
+        background:#6937c3;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        position: fixed;
+
+    }
+
+.profileDesc{
+ padding: 5px;
+
+}
+.notifications {
+height: 376px;
+  overflow-y: auto;
+  width: auto;
+}
+.headChatInfo {
+  display: inline-block;
+  width: auto;
+  height: 55px;
+}
+.headPhotochat {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 70px;
+}
+
+
+    .navbar>.text>.alignRight>a {
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+        font-size: 1.2em;
+        position: relative;
+        left: 3%;
+    }
+
+    .navbar>.text>a {
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+        font-size: 1.2em;
+        margin-right: 3%;
+    }
+
+
+    .right a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 10px 11px;
+    }
+
+    .labelLeft {
+        text-align: left;
+        margin-top: 11px;
+        margin-left: 0px;
+    }
+
+    .text {
+        margin-top: 4px;
+
+    }
+
+    html,
+    body {
+        margin: 0;
+        font-family: calibri;
+    }
+
+    .typeOfProfile {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .typeOfProfile h2 {
+        color: #492fb5;
+    }
+
+
+    .button5,
+    .button6 {
+        margin-top: 10px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        font-weight: 500;
+        font-size: 1.1em;
+        padding-left: 21px;
+        padding-right: 21px;
+        margin-left: 5px;
+        background-color: #ecebeee8;
+        color: #492fb5;
+        border: none;
+
+    }
+
+    .button6.text {
+        background-color: #492fb5;
+        color: white;
+    }
+
+
+    .button5:hover {
+        background-color: #492fb5;
+        color: white;
+    }
+
+    .messageOffreRight{
+        text-align: right;
+        padding: 10px 5px;
+        background-color: #4d71df;
+        color: white;
+        font-size: 0.9em;
+        max-inline-size: 150px;
+        border-radius: 10px;
+        border-bottom-right-radius: 0;
+        margin: 5px;
+        margin-left: 45%;
+    
+    }
+    .button6:hover {
+        background-color: #492fb5;
+        color: white;
+    }
+
+    /* page home */
+    .homePage {
+        background-color: #dbdada;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .demande {
+    border: 1px solid #5e7ddb;
+    border-radius: 4px;
+    text-align: left;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 250px;
+    display:inline-block;
+    background-color: #e0dfdf;
+    margin-top: 15px;
+}
+
+div#myDropdown {
+    margin-top: 0px;
+}
+
+    .Description {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 5%;
+    }
+
+    .xx {
+        color: #785aee;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .Description p {
+        line-height: 1.6;
+        color: #555;
+        font-size: 1.1em;
+    }
+
+
+
+#typeDeChambre {
+  width: 80%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+.field {
+  width: 80%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+.notificationChat {
+    background: red;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 0.7em;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    margin-right: 5px;
+}
+
+
+.moonSvg{
+width:25px;
+height:25px;
+}
+
+.btn2 {
+  background: none;
+  border: 0px;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 7px;
+  font-size: 0.9em;
+  font-weight: bold;
+  width: auto;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  position: relative;
+  left: 65%;
+  bottom: 45px;
+}
+
+
+.btn {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  background-color: #5e7ddb;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 3px;
+}
+
+.allNotif {
+    position: fixed;
+    height: 13px;
+    right: 15px;
+    background: red;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 0.7em;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    margin-right: 5px;
+}
+
+    .button12 {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 13px;
+        padding-right: 10px;
+        font-size: 1.0em;
+        border-radius: 4px;
+        background: #5e7ddb;
+        color: white;
+        border: none;
+        margin-left: 50px;
+        transition: .3s;
+        position: relative;
+        right: -31%;
+    }
+
+
+    /* ... Votre style existant ... */
+    .carte-annonce {
+        display: flex;
+        background-color: #492fb5;
+        padding: 20px;
+        margin: 20px 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+        width: 500px;
+        margin: 0 auto;
+
+    }
+
+
+    .headPhotochat{
+        display: inline-block;
+          /* position: relative;
+          top: -30px; */
+        }
+
+    .carte-annonce:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .details {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .prix {
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .proprio {
+        font-weight: bold;
+        color: white;
+    }
+
+    .info {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    /* menu deroulant de la navbar */
+    .menu-items {
+        display: none;
+        margin-top: 0px;
+        flex-direction: column;
+        position: absolute;
+        top: 49.6px;
+        right: 0;
+        padding: 5px 10px;
+        /* background: linear-gradient(to left, #492fb5, #5e7ddb); */
+        background: #6f57e6;
+        height: 212px;
+        align-items: center;
+    }
+
+   
+
+     .Description7 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    height: 485px;
+    width: 100%;
+}
+
+
+    .menu-icon-show {
+        margin-right: 10px;
+        display: block;
+    }
+
+    /* profile.php */
+    .desc {
+        font-size: 0.9em;
+    }
+
+    .button8 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 7px;
+        font-size: 0.9em;
+        width: auto;
+        border-radius: 4px;
+        background: #5e7ddb;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        display: inline-block;
+        margin-left: 10px;
+ 
+    }
+
+
+      .button14 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 7px;
+    font-size: 0.9em;
+    width: auto;
+    border-radius: 4px;
+    background: #5e7ddb;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+
+    .button14:hover {
+        background-color: #492fb5;
+    }
+
+    .inputMessage {
+        padding: 5px 25px;
+        position: relative;
+        bottom: 30%;
+        height: 25px;
+        max-width: 50%;
+    }
+
+    .footer {
+        padding: 10px 15px;
+        height: 43px;
+    }
+
+
+     
+
+    .personne {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 100px;
+        /* position: relative; */
+        bottom: 35%;
+    }
+
+   .container {
+    overflow-y: auto;
+    border-bottom: 1px solid #5e7ddb;
+    background-color: #e3eaff;
+  }
+
+    .Description4 {
+        text-align: left;
+        height: 502px;
+    }
+
+
+
+
+    .inputMessage {
+        padding: 5px 25px;
+        margin-bottom: 5px;
+        height: 20px;
+        /* border: none; */
+        width: 100%;
+    }
+
+    .footer {
+        padding: 0 15px;
+        height: 52px;
+        background-color: #5555;
+    }
+
+    .button13 {
+        padding: 0;
+        margin: 0;
+        background: none;
+        border: none;
+        position:relative;
+          top: 10px;
+    /* left:30%; */
+    }
+
+    /* message */
+
+    .messageLeft {
+        text-align: left;
+        padding: 10px 5px;
+        background-color: #616161;
+        color: white;
+        font-size: 0.9em;
+        max-width: 110px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        margin: 5px;
+    }
+
+    .messageRight {
+        text-align: right;
+        padding: 10px 5px;
+        background-color: #4d71df;
+        color: white;
+        font-size: 0.9em;
+        max-inline-size: 110px;
+        border-radius: 10px;
+        border-bottom-right-radius: 0;
+        margin: 5px;
+        margin-left: 60%;
+    }
+
+ /*chat list  */
+
+   .newMessage {
+            width: 15px;
+            height: 15px;
+            background-color: rgb(233, 14, 14);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            display: inline;
+            padding: 1px 5px;
+            font-size: 0.6em;
+        }
+
+        .textColored1 {
+            text-align: left;
+            color: #5e7ddb;
+            font-size: 1.9em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        .specialSmall1 {
+            font-weight: bold;
+        }
+
+        .button20 {
+            width: 310px;
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.05em;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+            font-family: calibri;
+            background-color: transparent;
+            height: 54px;
+
+        }
+
+
+
+/* Contenu du menu déroulant (caché par défaut) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Liens à l'intérieur du menu déroulant */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Changement de couleur au survol */
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  /* Affichage du menu déroulant lorsque le bouton est cliqué */
+  .show {display: block;}
+  /* Fonction pour afficher ou masquer le menu déroulant */
+  
+  button.dropbtn {
+      border: none;
+      margin-right: 10px;
+      background: none;
+      color: white;
+      display: inline-block;
+      font-size: 1.5em;
+  }
+
+        .notification1 {
+            text-align: left;
+            height: 36px;
+            margin-bottom: 40px;
+            margin-left: -14px;
+        }
+
+
+.container {
+    overflow-y: auto;
+    border-bottom: 1px solid #5e7ddb;
+    height: 340px;
+    background-color: #e3eaff;
+}
+
+        .Description1 {
+            height: 438px;
+            margin-top: 38px;
+            width:auto;
+        }
+
+
+}
+
+ .button18 {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.05em;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+            font-family: calibri;
+            padding: 0px;
+        }
+        .principalImage {
+            width: 100%;
+            max-height: 200px;
+            min-height: 100px;
+           border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+        }
+.otherElementHomePage{
+padding: 0 10px;
+}
+.whatsappButton{
+text-decoration: none;
+  margin: 10px 0px;
+}
+.buttonNotificationPage{
+padding-left: 10px;
+background-color: #fff;
+}
+.notificationPlusImageButton {
+  padding: 0px;
+  margin: 0px;
+}
